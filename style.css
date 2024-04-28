@@ -1,0 +1,184 @@
+.search
+{
+float: left;
+}
+.hide
+  {
+     display:none;
+  }
+  
+html, body
+{
+	height: 100%;
+    font-family:'Rubik',serif !important;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+	
+}
+.bgsection {
+	background-color: cadetblue;
+}
+.lgndiv {
+	margin-top:6%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+	font-size: 17px;
+}
+
+.navbar{
+    padding:1rem 2.5rem 1rem 2rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    background-color: white;
+  color: #19A7CE  !important;
+  }
+
+.active {
+	background-color: white !important;
+	color: black !important;
+}
+.sticky
+{
+	flex: 1 0 auto;
+}
+
+.div_box 
+        {
+            margin: 0 auto;
+            text-align: center;
+            background-color: #e9e3e3;
+            margin-top: 18%;
+            padding: 65px;
+	        opacity: 0.8;
+            box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+        }
+ 
+ .innerdiv 
+        {
+	        width:30%;
+	        margin: 0 auto;
+	        border-radius: 50px;
+        }
+.footer 
+{
+ background-color: #19A7CE; 
+	padding:10px;
+	flex-shrink: 0;
+}
+.footerp 
+{
+	color:white;
+	font-size:15px;
+}
+
+
+.actions, .glyphicon, .infos, .glyphicon-chevron-down
+{
+	cursor: not-allowed !important;
+	display: none !important;
+}
+.pagination .prev, .pagination .next
+{
+display: none;
+}
+.pagination li
+{
+padding-left: 10px;
+padding-right: 10px;
+border: 1px solid black;
+background-color: navy;
+}
+.pagination li a
+{
+color: white !important;
+cursor: pointer;
+}
+.pagination .active
+{
+background-color: white;
+}
+.pagination .active a
+{
+color: black !important;
+}
+.active1
+{
+background-color: white;
+color: #17a2b8 !important;
+}
+
+
+#parent
+{
+height: 100%;
+width: 100%;
+display: table;
+}
+#child
+{
+display: table-cell;
+height: 100%;
+vertical-align: middle;
+}
+.table-bordered, .table-bordered td, .table-bordered th {
+    border: 1px solid rgba(0, 0, 0, 0.34) !important;
+}
+.table thead th {
+    font-size: 0.95rem;
+    font-weight: bolder !important;
+    color: rgba(0,0,0,.54);
+    border-top-width: 0;
+    border-bottom-width: 1px;
+}
+
+.text-info{
+    font-weight:600px;
+    align-items: center;
+}
+
+.talign{
+    text-align: center;
+}
+
+.footerp{
+    text-align:center;
+}
+
+.team-name{
+    font-weight:600px;
+    font-size: 1.2rem;
+}
+
+.socials{
+    padding-left: 20px;
+    padding-top: 20px;
+    
+}
+.colorl:link{
+    background-color:black;
+}
+
+.colorl:visited{
+    background-color:white;
+}
+
+.colorl:hover{
+    background-color:white;
+}
+
+
+.login_border{
+    border-style:solid;
+    border-width: 1px;
+    border-color: #000;
+}
+
+.my-3{
+ margin:auto;
+}
